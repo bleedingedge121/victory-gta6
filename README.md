@@ -238,6 +238,10 @@ cargo build --release -p victory
 target\release\victory.exe run <game dir>\<the title's exe> --execute
 ```
 
+If you cannot build locally, use the **Build Windows executable** workflow from
+the repository's Actions tab. Select **Run workflow**, then download the
+`victory-windows-x86_64` artifact from the completed run.
+
 The window caption shows the framerate. Saves, settings and `crashes.log`
 are kept under the data folder (default `%LOCALAPPDATA%\victory\data`), derived
 data under the cache folder.
